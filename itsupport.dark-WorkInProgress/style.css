@@ -134,8 +134,26 @@ fieldset > legend {
   }
  
 /*ELFOGADOTT IGÉNY ALOLDAL*/
+#tabs-1 > *, #tabs-1, #tabs-1 > table > tbody > tr > td > *,
+.notifiers {
+	color: #fafaf9!important;
+}
+#tabs-1 > table > tbody > tr > td > fieldset >input {
+	background-color: #292524;
+	color: #fafaf9!important;
+}
+#tabs-1 > table > tbody > tr > td:nth-child(2) > table > tbody > tr {
+	background-color: #292524;
+	color: #fafaf9!important;
+}
+#newcomment > form > textarea, #newcomment > form > #buttonfield > input {
+	background-color: #292524;
+	color: #fafaf9!important;
+}
+/*#tabs-1 > table >tbody > tr > td {background-color: transparent!important;}*/
 
-  
+
+
   
 /*ÚJ IGÉNY*/
 #manual_div_2 {
