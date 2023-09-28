@@ -1,10 +1,15 @@
 body {
 	padding: 0px!important;
 	overflow-x: hidden;
+	background-color: #292524;
 }
 table {
-	border: none;
+	border: none!important;
 	padding: 0px!important;
+	background-color: transparent;
+}
+.ui-widget-content {
+	border: none;
 }
 th {
     background-color: #292524;
