@@ -1,3 +1,5 @@
+/*IGÉNYEK LISTÁJA*/
+
 body {
 	padding: 0px!important;
 	overflow-x: hidden;
@@ -130,3 +132,63 @@ fieldset > legend {
     border-radius: 16px;
     border: 3px solid #292524;
   }
+ 
+/*ELFOGADOTT IGÉNY ALOLDAL*/
+
+  
+  
+/*ÚJ IGÉNY*/
+#manual_div_2 {
+	color: #fafaf9;
+}
+#wrapper > table > tbody > tr > td:nth-child(2) > fieldset > table {
+	background-color: #1c1917!important;
+}
+#newticketform {
+	color: #fafaf9;
+}
+#newticketform > input {
+	background-color: #292524;
+	color: #fafaf9;
+}
+#newticketform > select {
+	background-color: #f59e0b;
+}
+#t3 {
+	background-color: #292524;
+}
+
+/*PORTA KI-BE*/
+#swform {
+	background-color: #292524;
+	color: #fafaf9;
+}
+#swform > input {
+	background-color: #292524;
+	color: #fafaf9;
+}
+#ui-datepicker-div {
+	background-color: #44403c;
+}
+.ui-datepicker-calendar {
+	background-color: #292524;
+}
+.hoverTable > tbody > tr:nth-child(even) > td {
+	background-color: #44403c!important;
+    color: #fafaf9;
+}
+.hoverTable > tbody > tr:nth-child(odd) > td {
+	background-color: #78716c!important;
+	color: #fafaf9;
+}
+
+
+/*LESZÁMOLÓK-ROT*/
+#ltabs {
+	background-color: #0c0a09;
+}
+
+/*TUDÁSBÁZIS*/
+#ktabs {
+	background-color: #0c0a09;
+}
