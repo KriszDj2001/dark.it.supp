@@ -1,0 +1,119 @@
+body {
+	padding: 0px!important;
+	overflow-x: hidden;
+}
+table {
+	border: none;
+	padding: 0px!important;
+}
+th {
+    background-color: #292524;
+    color: #fafaf9;
+}
+.ui-tabs-panel > table > tbody > tr:nth-child(even) > td {
+	background-color: #44403c!important;
+    color: #fafaf9;
+}
+.ui-tabs-panel > table > tbody > tr:nth-child(odd) > td {
+	background-color: #78716c!important;
+	color: #fafaf9;
+}
+
+
+#header {
+	background-color: #0c0a09;
+	/*background: #0c0a09 url(https://itsupport.suzuki.hu/templates/images/logo.jpg) no-repeat left;*/
+	background: #0c0a09 url(https://assets.stickpng.com/images/580b585b2edbce24c47b2cc5.png) no-repeat;
+	background-size: 150px 75px;
+	background-position: bottom 15px left 65px;
+}
+#header > span {
+	margin-left: 150px;
+}
+#leftMenuBarTD {
+	background-color: #0c0a09;
+	color: #fafaf9;
+}
+ul.menu li a {
+	color: #fafaf9;
+}
+ul.menu li.selected {
+    background-color: #292524;
+}
+ul.menu li {
+    border-left: 4px solid #292524;
+}
+.searchbox, .searchbox::placeholder, .searchbutton {
+	background-color: #292524;
+	color: #fafaf9;
+}
+*:focus {
+    outline: none;
+}
+
+
+.ui-tabs .ui-tabs-nav li {
+	background-color: #292524;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background-color: #525252!important;
+}
+.ui-tabs .ui-tabs-nav li > a {
+	color: #fafaf9;
+}
+#tabs {
+	background-color: #0c0a09;
+}
+
+
+fieldset {
+    color: #fafaf9;
+    background-color: #1c1917;
+    border: 1px dotted #fafaf9;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fafaf9;
+}
+fieldset > legend {
+	color: #fafaf9!important;
+}
+.notifiers {
+    background: #292524;
+    border: 1px solid #fafaf9;
+}
+.notifiers > a {
+	color: #fafaf9;
+}
+
+
+#wrapper > table > tbody > tr {
+	background-color: #0c0a09;
+	color: #fafaf9;
+}
+
+
+#filterform{
+	color: #fafaf9;
+}
+
+
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #292524 #78716c;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #292524;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #78716c;
+    border-radius: 16px;
+    border: 3px solid #292524;
+  }
