@@ -59,6 +59,14 @@ ul.menu li {
 
 .ui-tabs .ui-tabs-nav li {
 	background-color: #292524;
+	transition: all .2s ease-in-out;
+}
+.ui-tabs .ui-tabs-nav li:hover {
+	background-color: #525252;
+	transform: scale(1.025);
+}
+.ui-tabs .ui-tabs-nav li:active {
+	transform: scale(0.95);
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
 	background-color: #525252!important;
