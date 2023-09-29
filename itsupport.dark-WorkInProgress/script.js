@@ -29,7 +29,7 @@ if (window.location.href.indexOf("ticket=") != -1) {
 }
 
 const para = document.createElement("p");
-const node = document.createTextNode("Dark mode by: KriszDJ");
+const node = document.createTextNode("Dark mode by: @magyar.krisz.dj");
 para.setAttribute("id", "headerTag");
 para.appendChild(node);
 
