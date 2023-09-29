@@ -35,3 +35,10 @@ para.appendChild(node);
 
 const element = document.getElementById("header");
 element.appendChild(para);
+
+
+var UDVelement = document.getElementById('leftMenuBarTD');
+var firstChild = UDVelement.firstElementChild;
+//const pacsi = document.createTextNode(', pacsi!');
+//firstChild.appendChild(pacsi);
+firstChild.innerHTML += '<span style="font-weight: 100;">, pacsi!</span>';
