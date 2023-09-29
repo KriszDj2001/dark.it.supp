@@ -212,3 +212,13 @@ fieldset > legend {
 #ktabs {
 	background-color: #0c0a09;
 }
+
+/*HEADER TAG*/
+#headerTag {
+	color: #fafaf9;
+	margin: 0;
+	text-align: right;
+	padding-top: 85px;
+	padding-right: 15px;
+	z-index: 9999;
+}

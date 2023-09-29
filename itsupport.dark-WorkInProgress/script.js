@@ -27,3 +27,11 @@ if (window.location.href.indexOf("ticket=") != -1) {
 	  style.appendChild(document.createTextNode(css));
 	}
 }
+
+const para = document.createElement("p");
+const node = document.createTextNode("Dark mode by: KriszDJ");
+para.setAttribute("id", "headerTag");
+para.appendChild(node);
+
+const element = document.getElementById("header");
+element.appendChild(para);
