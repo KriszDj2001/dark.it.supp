@@ -30,7 +30,9 @@ th {
 #header {
 	background-color: #0c0a09;
 	/*background: #0c0a09 url(https://itsupport.suzuki.hu/templates/images/logo.jpg) no-repeat left;*/
-	background: #0c0a09 url(https://assets.stickpng.com/images/580b585b2edbce24c47b2cc5.png) no-repeat;
+	/*background: #0c0a09 url(https://assets.stickpng.com/images/580b585b2edbce24c47b2cc5.png) no-repeat;*/
+	background-size: 150px 75px;
+	background: #0c0a09 url(https://logodownload.org/wp-content/uploads/2017/04/suzuki-logo-1-1.png) no-repeat;
 	background-size: 150px 75px;
 	background-position: bottom 15px left 65px;
 }
