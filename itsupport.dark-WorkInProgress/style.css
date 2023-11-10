@@ -1,4 +1,18 @@
 /*IGÉNYEK LISTÁJA*/
+#searchID_1, #searchID_2, #searchID_3, #searchID_4, #searchID_5, #searchID_6, #searchID_7, #searchID_8, #searchID_9, #searchID_10, #searchID_11, #searchID_12, #searchID_13, #searchID_14, #searchID_15, #searchID_16, #searchID_17, #searchID_18, #searchID_19, #searchID_20{
+    background-color: #292524;
+    color: #fafaf9;
+    width: 50%;
+    padding: 0.25rem;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 body {
 	padding: 0px!important;
