@@ -242,3 +242,26 @@ fieldset > legend {
 	padding-right: 15px;
 	z-index: 9999;
 }
+
+/*Cron*/
+#CronTable_length, #CronTable_filter, #CronTable_info {
+	color: #fafaf9;
+}
+
+#CronTable_paginate > *{
+	color: #fafaf9!important;
+	background-color: #44403c;
+}
+
+#CronTable > tbody > tr:nth-child(even) > td {
+	background-color: #44403c!important;
+    color: #fafaf9;
+}
+#CronTable > tbody > tr:nth-child(odd) > td {
+	background-color: #78716c!important;
+	color: #fafaf9;
+}
+#CronTable > thead > tr > th {
+    background-color: #292524;
+    color: #fafaf9;
+}
