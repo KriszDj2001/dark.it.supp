@@ -1,5 +1,5 @@
 /*IGÉNYEK LISTÁJA*/
-#searchID_1, #searchID_2, #searchID_3, #searchID_4, #searchID_5, #searchID_6, #searchID_7, #searchID_8, #searchID_9, #searchID_10, #searchID_11, #searchID_12, #searchID_13, #searchID_14, #searchID_15, #searchID_16, #searchID_17, #searchID_18, #searchID_19, #searchID_20{
+#searchID_1, #searchID_2, #searchID_3, #searchID_4, #searchID_5, #searchID_6, #searchID_7, #searchID_8, #searchID_9, #searchID_10, #searchID_11, #searchID_12, #searchID_13, #searchID_14, #searchID_15, #searchID_16, #searchID_17, #searchID_18, #searchID_19, #searchID_20, #searchID_30, #searchID_35{
     background-color: #292524;
     color: #fafaf9;
     width: 50%;
@@ -13,6 +13,12 @@
     transform: translate(-50%, -50%);
 }
 
+.xl743113 > pre {
+	color: white;
+}
+.xl653113 > tbody > tr {
+	background-color: gray;
+}
 
 body {
 	padding: 0px!important;
@@ -46,7 +52,7 @@ th {
 	/*background: #0c0a09 url(https://itsupport.suzuki.hu/templates/images/logo.jpg) no-repeat left;*/
 	/*background: #0c0a09 url(https://assets.stickpng.com/images/580b585b2edbce24c47b2cc5.png) no-repeat;*/
 	background-size: 150px 75px;
-	background: #0c0a09 url(https://logodownload.org/wp-content/uploads/2017/04/suzuki-logo-1-1.png) no-repeat;
+	background: #0c0a09 url(https://raw.githubusercontent.com/KriszDj2001/dark.it.supp/main/itsupport.dark-WorkInProgress/suzuki-logo-1-1.png) no-repeat;
 	background-size: 150px 75px;
 	background-position: bottom 15px left 65px;
 }
