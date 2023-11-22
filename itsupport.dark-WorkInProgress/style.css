@@ -122,7 +122,9 @@ fieldset > legend {
 	color: #fafaf9;
 }
 
-
+#wrapper > table {
+	min-height: 100vh;
+}
 #wrapper > table > tbody > tr {
 	background-color: #0c0a09;
 	color: #fafaf9;
