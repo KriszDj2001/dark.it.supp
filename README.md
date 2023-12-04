@@ -1,6 +1,6 @@
 # dark.it.supp
 
-##Alkalmazás:
+## Alkalmazás:
 
 "User Javascript and CSS" chrome xtension telepítése
 https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld
