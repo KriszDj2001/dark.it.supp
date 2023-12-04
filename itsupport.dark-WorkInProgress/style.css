@@ -1,3 +1,7 @@
+a, a:link, a:visited {
+    color: #38bdf8;
+    text-decoration: none;
+}
 /*IGÉNYEK LISTÁJA*/
 #searchID_1, #searchID_2, #searchID_3, #searchID_4, #searchID_5, #searchID_6, #searchID_7, #searchID_8, #searchID_9, #searchID_10, #searchID_11, #searchID_12, #searchID_13, #searchID_14, #searchID_15, #searchID_16, #searchID_17, #searchID_18, #searchID_19, #searchID_20, #searchID_30, #searchID_35{
     background-color: #292524;
