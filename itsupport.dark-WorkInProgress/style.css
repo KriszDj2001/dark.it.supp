@@ -12,7 +12,12 @@ img[src*="templates/images/bg/2023_12_01_15_08_071"] {
     margin-right: auto;
     max-width: 750px!important;
 }
-
+#manual_div {
+	margin-left: 1%;
+}
+#wrapper > table > tbody > tr > td:nth-child(2) {
+	padding-left: 0px!important;
+}
 .tilt {
 	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
 	transform-style: preserve-3d;
