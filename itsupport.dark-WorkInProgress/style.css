@@ -2,6 +2,41 @@ a, a:link, a:visited {
     color: #38bdf8;
     text-decoration: none;
 }
+a:hover, a:link:hover, a:visited:hover {
+    color: #0284c7;
+    text-decoration: none;
+}
+img[src*="templates/images/bg/2023_12_01_15_08_071"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px!important;
+}
+
+.tilt {
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+	transform-style: preserve-3d;
+	margin: 50px auto;
+}
+
+.tilt-logo {
+	width: 750px;
+	background-color: #7e56ff;
+	background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);
+}
+
+.tilt-logo-inner {
+	transform: translateZ(50px) translateY(-50%) translateX(-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	font-size: 1.9rem;
+}
+
+.tilt-movie, .tilt-movie img {
+	width: 750px;
+}
 /*IGÉNYEK LISTÁJA*/
 #searchID_1, #searchID_2, #searchID_3, #searchID_4, #searchID_5, #searchID_6, #searchID_7, #searchID_8, #searchID_9, #searchID_10, #searchID_11, #searchID_12, #searchID_13, #searchID_14, #searchID_15, #searchID_16, #searchID_17, #searchID_18, #searchID_19, #searchID_20, #searchID_30, #searchID_35{
     background-color: #292524;
