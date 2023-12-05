@@ -42,3 +42,53 @@ var firstChild = UDVelement.firstElementChild;
 //const pacsi = document.createTextNode(', pacsi!');
 //firstChild.appendChild(pacsi);
 firstChild.innerHTML += '<span style="font-weight: 100;">, pacsi!</span>';
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var leftMenuBarTDElement = document.getElementById("leftMenuBarTD");
+
+  if (leftMenuBarTDElement) {
+    var leftMenuBarTDWidth = leftMenuBarTDElement.offsetWidth;
+
+    var imageElements = document.querySelectorAll('img[src*="templates/images/bg/2023_12_01_15_08_071"]');
+    
+    imageElements.forEach(function(imageElement) {
+      imageElement.style.width = "calc(100vw - " + leftMenuBarTDWidth + "px)";
+    });
+  }
+});
+
+
+function addScript(src, callback) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.type = 'text/javascript';
+  script.onload = callback;
+  document.head.appendChild(script);
+}
+
+addScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', function() {
+  addScript('https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js', function() {
+    var image = document.querySelector('img[src*="templates/images/bg/2023_12_01_15_08_071"]');
+
+    if (image) {
+      var divElement = document.createElement('div');
+
+      divElement.className = 'tilt tilt-movie';
+
+      divElement.setAttribute('data-tilt', '');
+      divElement.setAttribute('data-tilt-glare', 'true');
+      divElement.setAttribute('data-tilt-scale', '1.1');
+
+      image.parentNode.appendChild(divElement);
+
+      divElement.appendChild(image);
+
+      $(divElement).tilt({
+      });
+    }
+  });
+});
