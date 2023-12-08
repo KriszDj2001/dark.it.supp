@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (leftMenuBarTDElement) {
     var leftMenuBarTDWidth = leftMenuBarTDElement.offsetWidth;
 
-    var imageElements = document.querySelectorAll('img[src*="templates/images/bg/2023_12_01_15_08_071"]');
+    var imageElements = document.querySelectorAll('img[src*="templates/images/bg/2023_12_07_14_36_302.jpg"]');
     
     imageElements.forEach(function(imageElement) {
       imageElement.style.width = "calc(100vw - " + leftMenuBarTDWidth + "px)";
@@ -72,7 +72,7 @@ function addScript(src, callback) {
 
 addScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', function() {
   addScript('https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js', function() {
-    var image = document.querySelector('img[src*="templates/images/bg/2023_12_01_15_08_071"]');
+    var image = document.querySelector('img[src*="templates/images/bg/2023_12_07_14_36_302.jpg"]');
 
     if (image) {
       var divElement = document.createElement('div');
