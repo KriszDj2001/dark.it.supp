@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik&display=swap');
+* {
+	font-family: 'Rubik', sans-serif!important;
+}
+
 a, a:link, a:visited {
     color: #38bdf8;
     text-decoration: none;
