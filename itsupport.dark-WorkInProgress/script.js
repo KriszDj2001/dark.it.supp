@@ -92,3 +92,27 @@ addScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', f
     }
   });
 });
+
+
+
+
+
+  // Betöltéskor lefut
+  (function() {
+    // Paraméterek
+    function checkURL() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const routeParam = urlParams.get('route');
+      const listParam = urlParams.get('list');
+
+      // Route és List értékek
+      if (routeParam === 'tickets' && listParam === 'new') {
+        setInterval(function() {
+          location.reload();
+        }, 5000);
+      }
+    }
+
+    // betöltéskor meghívja
+    checkURL();
+  })();
