@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik&display=swap');
 * {
 	font-family: 'Rubik', sans-serif!important;
+	cursor: none!important;
 }
 
 a, a:link, a:visited {
