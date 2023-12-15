@@ -116,3 +116,35 @@ addScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', f
     // betöltéskor meghívja
     checkURL();
   })();
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Létrehozzuk a szükséges HTML struktúrát
+  var cursorHtml = `
+    <div id="cursor" class="cursor">
+      <div class="ring">
+          <div><!--Border--></div>
+      </div>
+      <div class="ring">
+          <div><!--Pointer--></div>		
+      </div>
+    </div>`;
+
+  // Hozzáadjuk a HTML-t a dokumentum végéhez
+  document.body.insertAdjacentHTML('beforeend', cursorHtml);
+
+  // jQuery script hozzáadása
+  var script = document.createElement('script');
+  script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js";
+  document.body.appendChild(script);
+});
+$(window).mousemove(function (e) {
+	$(".ring").css(
+		"transform",
+		`translateX(calc(${e.clientX}px - 1.25rem)) translateY(calc(${e.clientY}px - 1.25rem))`
+	);
+});
