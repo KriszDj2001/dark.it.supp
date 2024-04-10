@@ -1,5 +1,5 @@
 # dark.it.supp
-
+### OUTDATED
 ## Alkalmazás:
 
 "User Javascript and CSS" chrome xtension telepítése
